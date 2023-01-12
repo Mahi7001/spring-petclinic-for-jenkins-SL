@@ -1,6 +1,6 @@
 import hudson.model.*
-def buildJar() {
+def BuildImage() {
     echo "building the application..."
-    sh 'mvn package'
+    sh 'mvn packagei'
 } 
 
