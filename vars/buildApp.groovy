@@ -1,5 +1,5 @@
 import hudson.model.*
-def BuildImage() {
+def call() {
     echo "building the application..."
     sh 'mvn package'
 } 
